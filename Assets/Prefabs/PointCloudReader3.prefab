@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1060200393485182701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4441135428753710310}
+  - component: {fileID: 8900082810836420906}
+  m_Layer: 0
+  m_Name: PointCloudReader3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4441135428753710310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060200393485182701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8900082810836420906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060200393485182701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152120ea0607b48aeb82141b9d34c5b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filePath: /Users/sefacahyir/Hw2/Assets/Resources/points3.txt
+  pointPrefab: {fileID: 61933628534009034, guid: d07528399e014ac44af1677c36b4ef9e, type: 3}
+  materialSet: {fileID: 2100000, guid: 56334f7330d6f4f728f451e003b71366, type: 2}
+  pointsSet:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1.5}
+  - {x: 0, y: 0, z: 3}
+  - {x: 0, y: 1.5, z: 0}
+  - {x: 0, y: 1.5, z: 1.5}
+  - {x: 0, y: 1.5, z: 3}
+  - {x: 0, y: 3, z: 0}
+  - {x: 0, y: 3, z: 1.5}
+  - {x: 0, y: 3, z: 3}
+  - {x: 1.5, y: 0, z: 0}
+  - {x: 1.5, y: 0, z: 1.5}
+  - {x: 1.5, y: 0, z: 3}
+  - {x: 1.5, y: 1.5, z: 0}
+  - {x: 1.5, y: 1.5, z: 1.5}
+  - {x: 15, y: 15, z: 25}
+  - {x: 15, y: 25, z: 5}
+  - {x: 15, y: 25, z: 15}
+  - {x: 15, y: 25, z: 25}
+  - {x: 25, y: 5, z: 5}
+  - {x: 25, y: 5, z: 15}
+  - {x: 25, y: 5, z: 25}
+  - {x: 25, y: 15, z: 5}
+  - {x: 25, y: 15, z: 15}
+  - {x: 25, y: 15, z: 25}
+  - {x: 25, y: 25, z: 5}
+  - {x: 25, y: 25, z: 15}
+  - {x: 25, y: 25, z: 25}
+  - {x: 30, y: 5, z: 5}
+  - {x: 30, y: 5, z: 15}
+  - {x: 30, y: 5, z: 25}
+  - {x: 30, y: 15, z: 5}
+  - {x: 30, y: 15, z: 15}
+  - {x: 30, y: 15, z: 25}
+  - {x: 30, y: 25, z: 5}
+  - {x: 30, y: 25, z: 15}
+  - {x: 30, y: 25, z: 25}
+  - {x: 35, y: 15, z: 5}
+  - {x: 35, y: 15, z: 15}
+  - {x: 35, y: 25, z: 5}
+  - {x: 35, y: 25, z: 15}

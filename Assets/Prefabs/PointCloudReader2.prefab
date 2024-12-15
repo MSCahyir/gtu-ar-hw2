@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &117606875310152379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479102548295676901}
+  - component: {fileID: 1467607199885138151}
+  m_Layer: 0
+  m_Name: PointCloudReader2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479102548295676901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117606875310152379}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1467607199885138151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117606875310152379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152120ea0607b48aeb82141b9d34c5b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filePath: /Users/sefacahyir/Hw2/Assets/Resources/points2.txt
+  pointPrefab: {fileID: 61933628534009034, guid: d07528399e014ac44af1677c36b4ef9e, type: 3}
+  materialSet: {fileID: 2100000, guid: 8e5b794e295e5430eb2a942513100572, type: 2}
+  pointsSet:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1.5}
+  - {x: 0, y: 0, z: 3}
+  - {x: 0, y: 1.5, z: 0}
+  - {x: 0, y: 1.5, z: 1.5}
+  - {x: 0, y: 1.5, z: 3}
+  - {x: 0, y: 3, z: 0}
+  - {x: 0, y: 3, z: 1.5}
+  - {x: 0, y: 3, z: 3}
+  - {x: 1.5, y: 0, z: 0}
+  - {x: 1.5, y: 0, z: 1.5}
+  - {x: 1.5, y: 0, z: 3}
+  - {x: 1.5, y: 1.5, z: 0}
+  - {x: 1.5, y: 1.5, z: 1.5}
+  - {x: 6.5, y: 6.5, z: 8}
+  - {x: 6.5, y: 8, z: 5}
+  - {x: 6.5, y: 8, z: 6.5}
+  - {x: 6.5, y: 8, z: 8}
+  - {x: 8, y: 5, z: 5}
+  - {x: 8, y: 5, z: 6.5}
+  - {x: 8, y: 5, z: 8}
+  - {x: 8, y: 6.5, z: 5}
+  - {x: 8, y: 6.5, z: 6.5}
+  - {x: 8, y: 6.5, z: 8}
+  - {x: 10, y: 5, z: 6.5}
+  - {x: 10, y: 6.5, z: 8}
+  - {x: 10, y: 8, z: 5}
+  - {x: 10, y: 8, z: 6.5}
+  - {x: 10, y: 8, z: 8}
+  - {x: 11.5, y: 5, z: 5}
+  - {x: 11.5, y: 5, z: 6.5}
+  - {x: 11.5, y: 5, z: 8}
+  - {x: 11.5, y: 6.5, z: 5}
+  - {x: 11.5, y: 6.5, z: 6.5}
+  - {x: 11.5, y: 6.5, z: 8}
+  - {x: 11.5, y: 8, z: 5}
+  - {x: 11.5, y: 8, z: 6.5}
+  - {x: 11.5, y: 8, z: 8}
+  - {x: 13, y: 6.5, z: 6.5}
+  - {x: 13, y: 8, z: 8}
